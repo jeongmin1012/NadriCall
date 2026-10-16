@@ -1,0 +1,37 @@
+
+# Python 가상환경
+.venv/
+venv/
+nadricall/
+Lib/
+Scripts/
+Include/
+share/
+pyvenv.cfg
+
+# Python 캐시
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 인증정보
+.env
+.env.*
+!.env.example
+*api_key*
+*secret*
+*.pem
+
+# 임시 파일 및 로그
+*.log
+*.tmp
+.DS_Store
+
+# 원본 및 개인 단위 데이터
+raw_data/
+private_data/
+*_responses.csv
+*synthetic_population_10000.csv
+
+# 내부 문서
+internal_reports/
